@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.chitkara.edu.in/wp-content/themes/chitkara/images/home-banner/can/slider-img07.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    /* background-repeat: no-repeat; */
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #dceae66a;
+    border: 1px solid #252323;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 10px;
+}
+
+.form-container {
+    padding: 20px;
+    background-color: rgba(25, 32, 32, 0.342);
+}
+
+.form-group {
+    margin-bottom: 20px;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #070707;
+    
+}
+
+input[type="text"], input[type="email"], input[type="tel"], select, textarea {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #171515;
+    background-color: rgba(255, 255, 255, 0.701);
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    background-color: #f00530d1;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"];
